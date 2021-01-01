@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: jetty-6.1.26.jar tools.jar hadoop-yarn-api-2.7.2.jar jetty-u
+ til-6.1.26.jar slf4j-api-1.7.10.jar hadoop-hdfs-2.7.2.jar protobuf-java
+ -2.5.0.jar hadoop-mapreduce-client-shuffle-2.7.2.jar log4j-core-2.8.2.j
+ ar zookeeper-3.4.6.jar apacheds-i18n-2.0.0-M15.jar api-asn1-api-1.0.0-M
+ 20.jar avro-1.7.4.jar jersey-json-1.9.jar curator-client-2.7.1.jar hado
+ op-yarn-common-2.7.2.jar hadoop-common-2.7.2.jar commons-collections-3.
+ 2.2.jar stax-api-1.0-2.jar gson-2.2.4.jar httpclient-4.1.2.jar commons-
+ compress-1.4.1.jar commons-net-3.1.jar snappy-java-1.0.4.1.jar jsr305-3
+ .0.0.jar xz-1.0.jar commons-logging-1.1.3.jar jackson-mapper-asl-1.9.13
+ .jar jsp-api-2.1.jar commons-io-2.4.jar netty-3.6.2.Final.jar jersey-cl
+ ient-1.9.jar xml-apis-1.3.04.jar commons-digester-1.8.jar xercesImpl-2.
+ 9.1.jar api-util-1.0.0-M20.jar leveldbjni-all-1.8.jar htrace-core-3.1.0
+ -incubating.jar java-xmlbuilder-0.4.jar log4j-api-2.8.2.jar commons-cod
+ ec-1.4.jar asm-3.1.jar commons-lang-2.6.jar apacheds-kerberos-codec-2.0
+ .0-M15.jar commons-daemon-1.0.13.jar hadoop-mapreduce-client-app-2.7.2.
+ jar hamcrest-core-1.3.jar curator-recipes-2.7.1.jar jaxb-impl-2.2.3-1.j
+ ar log4j-1.2.17.jar jettison-1.1.jar commons-beanutils-1.7.0.jar jsch-0
+ .1.42.jar jackson-jaxrs-1.8.3.jar hadoop-annotations-2.7.2.jar paraname
+ r-2.3.jar slf4j-log4j12-1.7.10.jar jaxb-api-2.2.2.jar hadoop-yarn-clien
+ t-2.7.2.jar curator-framework-2.7.1.jar hadoop-client-2.7.2.jar jackson
+ -xc-1.8.3.jar jets3t-0.9.0.jar commons-httpclient-3.1.jar commons-math3
+ -3.1.1.jar hadoop-auth-2.7.2.jar jersey-core-1.9.jar commons-cli-1.2.ja
+ r jersey-server-1.9.jar commons-configuration-1.6.jar hadoop-yarn-serve
+ r-common-2.7.2.jar activation-1.1.jar guava-11.0.2.jar hadoop-mapreduce
+ -client-common-2.7.2.jar jackson-core-asl-1.9.13.jar netty-all-4.0.23.F
+ inal.jar hadoop-mapreduce-client-core-2.7.2.jar junit-4.13.1.jar hadoop
+ -mapreduce-client-jobclient-2.7.2.jar xmlenc-0.52.jar commons-beanutils
+ -core-1.8.0.jar servlet-api-2.5.jar httpcore-4.1.2.jar
+
