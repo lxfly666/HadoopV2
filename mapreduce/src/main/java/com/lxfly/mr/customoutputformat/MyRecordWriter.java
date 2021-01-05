@@ -23,8 +23,10 @@ public class MyRecordWriter extends RecordWriter<Text, NullWritable> {
     private Path otherPath = new Path("E:\\Code\\2020practice\\HadoopV2_code\\mapreduce\\mroutput\\outputformat\\other.log");
     FSDataOutputStream atguiguOs;
     FSDataOutputStream otherOs;
+    TaskAttemptContext context;
 
     public MyRecordWriter(TaskAttemptContext taskAttemptContext) throws IOException {
+        context = taskAttemptContext;
         Configuration configuration = taskAttemptContext.getConfiguration();
         fileSystem = FileSystem.get(configuration);
         atguiguOs = fileSystem.create(atguiguPath, true);
@@ -35,8 +37,10 @@ public class MyRecordWriter extends RecordWriter<Text, NullWritable> {
     public void write(Text text, NullWritable nullWritable) throws IOException, InterruptedException {
         if(text.toString().contains("atguigu")){
             atguiguOs.write(text.toString().getBytes());
+            context.getCounter("MyCounter","atguiguCounter").increment(1);
         }else{
             otherOs.write(text.toString().getBytes());
+            context.getCounter("MyCounter","otherCounter").increment(1);
         }
     }
 
