@@ -52,7 +52,7 @@ public class HDFSClient {
 
     @Test
     public void put() throws IOException, InterruptedException {
-        fs.copyFromLocalFile(false, true, new Path("D:\\test3.txt"), new Path("/mrinput/wordcount/test3.txt"));
+        fs.copyFromLocalFile(false, true, new Path("D:\\test.txt"), new Path("/abc.txt"));
         //测试配置参数优先级
 /*        Configuration conf = new Configuration();
         conf.setInt("dfs.replication",10);
